@@ -78,7 +78,6 @@ let pauseButton = document.getElementById("pauseButton");
 let resetButton = document.getElementById("resetButton");
 
 playButton.addEventListener("touchstart", start);
-playButton.addEventlistener("touchend", reset);
 pauseButton.addEventListener("mouseup", reset);
 resetButton.addEventListener("click", stop);
 /*pauseButton.addEventListener("click",pause)*/
