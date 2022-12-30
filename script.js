@@ -50,6 +50,7 @@ function pause() {
 }
 
 function reset() {
+  elapsedTime = 0;
   clearInterval(timerInterval);
   print("00:00:00");
   showButton("PLAY");
